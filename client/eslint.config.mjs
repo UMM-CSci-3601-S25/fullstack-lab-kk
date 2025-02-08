@@ -40,6 +40,8 @@ export default [{
         "no-underscore-dangle": ["error", {
             allow: ["_id"],
         }],
+        "no-trailing-spaces": "error",
+        "arrow-spacing": "error",
     },
 }, ...compat.extends(
     "plugin:@angular-eslint/template/recommended",
