@@ -1,0 +1,10 @@
+<!-- <p>Users: {{ users() }}</p> -->
+<div class="flex-row">
+  @if (users()) {
+  <div class="user-cards-container flex-row gap-8 flex-wrap">
+    @for (user of users(); track user._id) {
+      <app-user-card [simple]="true" class="user-card" [user]="user" ></app-user-card>
+    }
+  </div>
+  }
+</div>
