@@ -1,7 +1,7 @@
 {
     "java.configuration.updateBuildConfiguration": "automatic",
     "java.server.launchMode": "Standard",
-    "eslint.workingDirectories": [ "./client" ],
+    //"eslint.workingDirectories": [ "." ],
     "eslint.validate": [
       "javascript",
       "typescript",
